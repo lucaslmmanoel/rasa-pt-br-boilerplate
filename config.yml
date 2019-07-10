@@ -1,0 +1,52 @@
+language: pt
+pipeline:
+  - case_sensitive: false
+    model: pt_core_news_sm
+    name: SpacyNLP
+  - name: SpacyTokenizer
+
+  - name: SpacyEntityExtractor
+    dimensions:
+    - PERSON
+    - ORG
+    - GPE
+    - LOC
+    - PRODUCT
+
+  - name: DucklingHTTPExtractor
+    url: "http://localhost:8000"
+    locale: pt_BR
+    dimensions: ["time", "duration", "number"]
+    timezone: "America/Sao_Paulo"
+
+  - name: CRFEntityExtractor
+    features:
+    - - low
+      - title
+    - - bias
+      - prefix2
+      - digit
+      - suffix2
+    - - suffix5
+
+  - name: SpacyFeaturizer
+  - max_number_of_ngrams: 8
+    name: NGramFeaturizer
+  - name: CountVectorsFeaturizer
+  - intent_split_symbol: _
+    intent_tokenization_flag: true
+    name: EmbeddingIntentClassifier
+
+policies:
+  - name: AugmentedMemoizationPolicy
+    max_history: 10
+  - name: FormPolicy
+  - name: KerasPolicy
+    max_history: 10
+    core_threshold: 0.4
+    nlu_threshold: 0.3
+    rnn_size: 16
+    epochs: 1000
+    state_featurizer:
+      - name: LabelTokenizerSingleStateFeaturizer
+  - name: MappingPolicy

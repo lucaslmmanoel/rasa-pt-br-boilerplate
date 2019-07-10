@@ -1,0 +1,28 @@
+intents:
+- affirm
+- bye
+- chit
+- correct_data
+- deny
+- doubt
+- enter_data
+- greet
+- greet_polite
+- oos
+- restart
+- stop
+- unsure
+entities:
+- LOC
+- cpf
+- date
+- duration
+- name
+- number
+- room
+- time
+templates:
+  utter_introduce:
+  - text: Olá eu sou um Bot inicial em pt-br 😃
+actions:
+- utter_introduce

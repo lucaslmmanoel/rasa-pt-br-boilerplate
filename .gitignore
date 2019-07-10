@@ -1,0 +1,6 @@
+*.db
+*.log
+models
+__pycache__*
+.vscode/
+venv/*
