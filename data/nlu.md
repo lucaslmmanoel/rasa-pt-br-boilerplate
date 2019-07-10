@@ -39,7 +39,6 @@
 - me explica?
 - explica por favor
 - ??
-- sim, a [T10](LOC)
 
 ## intent:greet
 - oi
