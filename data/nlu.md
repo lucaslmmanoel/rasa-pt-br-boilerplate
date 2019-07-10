@@ -14,7 +14,7 @@
 ## intent:chit
 - ta calor ne?
 - nossa que engraçado
-- vc é burra
+- vc é burro
 - nao sei o que falar pra voce aqui
 - conversando fiado
 - o mar é azul?
