@@ -1,4 +1,4 @@
-# RASA PT-BR BOILLERPLATE
+# RASA PT-BR BOILERPLATE
 
 Projeto dedicado a criação de um boiller plate do framework rasa em pt br
 
