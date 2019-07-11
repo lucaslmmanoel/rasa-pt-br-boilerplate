@@ -30,6 +30,26 @@
 - sem tempo
 - não quero
 - obrigado
+- não sei onde a minha pergunta se encaixa
+- nao quero saber mais
+- quero falar sobre outra coisa
+- não quero saber de mais nada
+- nao era isso, me enganei
+- não quero falar sobre isso
+- ainda nao sei escolher um tópico
+- ainda não pensei sobre isso
+- nao sei do que quero falar
+- não sei do que quero conversar
+- nunca
+- nao
+- nao conheco
+- não quero
+- escolhi errado
+- falei errado
+- duvida
+- ainda não sei
+- nenhum
+- tchau
 
 ## intent:doubt
 - como assim?

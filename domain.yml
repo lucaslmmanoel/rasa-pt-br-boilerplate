@@ -25,7 +25,10 @@ templates:
   utter_introduce:
   - text: Olá eu sou um Bot inicial em pt-br 😃
   utter_okay:
-  - text: Eu estou sempre bem!
+  - text: Eu estou sempre bem! 😃
+  utter_bye:
+  - text: Tchau espero ter te atendido, desculpa qualquer coisa! 👍
 actions:
 - utter_introduce
 - utter_okay
+- utter_bye

@@ -6,6 +6,10 @@
 * greet_polite
     - utter_okay
 
+## bye bye
+* deny
+    - utter_bye
+
 ## restart condition
 * restart
     - action_restart
