@@ -24,5 +24,8 @@ entities:
 templates:
   utter_introduce:
   - text: Olá eu sou um Bot inicial em pt-br 😃
+  utter_okay:
+  - text: Eu estou sempre bem!
 actions:
 - utter_introduce
+- utter_okay

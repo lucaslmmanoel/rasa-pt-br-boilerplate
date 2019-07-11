@@ -19,8 +19,6 @@
 - conversando fiado
 - o mar é azul?
 
-## intent:correct_data
-- mentira, é pra [quinta feira](date)
 
 ## intent:deny
 - acho que não
@@ -55,6 +53,16 @@
 
 ## intent:greet_polite
 - tudo bem?
+- como vai?
+- Como você esta?
+- como ta
+- joia
+- joinha
+- tudo bom
+- bom dia flor do dia
+- Tudo bem e você
+- como vc esta
+- como vai
 
 ## intent:enter_data
 - [1000](number)
