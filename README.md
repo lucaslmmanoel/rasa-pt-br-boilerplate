@@ -43,3 +43,10 @@ rasa shell
 ```
 Ou teste com o rasa web chat:
 https://github.com/mrbot-ai/rasa-webchat
+
+rasa x:
+```
+pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
+rasa x
+```
+
