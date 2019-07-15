@@ -7,9 +7,18 @@
     - utter_okay
 
 ## bye bye
-* deny
+* bye
     - utter_bye
+
+## deny
+* deny
+    - utter_deny
+
+## cut chit
+* chit
+    - utter_chit
 
 ## restart condition
 * restart
     - action_restart
+

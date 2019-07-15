@@ -24,11 +24,24 @@ entities:
 templates:
   utter_introduce:
   - text: Olá eu sou um Bot inicial em pt-br 😃
+  - text: Olá Estou aqui para te ajuda 😃
+  - text: Hey sou um bot estou aprendendo português 😃
   utter_okay:
   - text: Eu estou sempre bem! 😃
+  - text: Mas é claro que estou bem! 😃
+  - text: é bom estar bem! 😃
   utter_bye:
   - text: Tchau espero ter te atendido, desculpa qualquer coisa! 👍
+  - text: Tchau Até a próxima! 👍
+  utter_deny:
+  - text: Ok então 👍
+  utter_chit:
+  - text: Bom, acho melhor voltar ao que interessa, você precisa da minha ajuda para que? 
+  - text: Hmmmmmmm 🤔
+  - text: Acreditemos que eu não entendi! 🤔
 actions:
 - utter_introduce
 - utter_okay
+- utter_deny
 - utter_bye
+- utter_chit

@@ -1,3 +1,68 @@
+
+## intent:greet
+- oi
+- oii
+- oie
+- ola
+- e ai
+- opa
+- oi
+- ola!!!!
+- olá
+- OLÀ
+- ok
+- oi, tudo bem
+- como vai
+- oi, como vai voce
+- como vao as coisas
+- com licenca
+- tudo bom
+- posso falar com voce
+- pode me tirar uma duvida
+- gostaria de tirar uma duvida
+- to bem
+- tranquilo
+- estou bem
+- estou otimo
+- muito bem
+- bom dia
+- boa tarde
+- boa noite
+
+## bye:bye
+- Tchau obrigado
+- Tchau obrigada
+- Tchau
+- até logo
+- namaste
+- sayonara
+- bye
+- até mais
+- até breve
+- falou, valeu
+- flw vlw
+- blza
+- blz
+- valeu
+- de boa
+- obrigada
+- obrigado
+- obj
+
+## intent:greet_polite
+- tudo bem?
+- como vai?
+- Como você esta?
+- como ta
+- joia
+- joinha
+- tudo bom
+- bom dia flor do dia
+- Tudo bem e você
+- como vc esta
+- como vai
+
+
 ## intent:affirm
 - acho que sim
 - sim
@@ -12,7 +77,6 @@
 - podemos
 
 ## intent:chit
-- ta calor ne?
 - nossa que engraçado
 - vc é burro
 - nao sei o que falar pra voce aqui
@@ -49,7 +113,6 @@
 - duvida
 - ainda não sei
 - nenhum
-- tchau
 
 ## intent:doubt
 - como assim?
@@ -57,33 +120,6 @@
 - me explica?
 - explica por favor
 - ??
-
-## intent:greet
-- oi
-- oii
-- oie
-- ola
-- e ai
-- opa td bem
-- oi
-- ola!!!!
-- olá
-- OLÀ
-- ok
-
-## intent:greet_polite
-- tudo bem?
-- como vai?
-- Como você esta?
-- como ta
-- joia
-- joinha
-- tudo bom
-- bom dia flor do dia
-- Tudo bem e você
-- como vc esta
-- como vai
-
 ## intent:enter_data
 - [1000](number)
 - [2000](number) reais
